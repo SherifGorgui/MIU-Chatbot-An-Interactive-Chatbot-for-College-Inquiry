@@ -1,0 +1,858 @@
+{"intents": [
+       {"tag": "Greeting",
+       "patterns": ["Hi", "Hey", "Hello", "How are you?", "Is anyone there?","Welcome", "good morning", "good evening"],
+       "responses": ["Hello, How can i help?"],
+       "context": [""]
+       },
+       {"tag": "Goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Thank you for your help"],
+       "responses": ["Goodbye, See you later!"],
+       "context": [""]
+       },
+       {"tag": "about",
+        "patterns": ["how are you doing?", "how are you?"],
+        "responses": ["Thanks for asking! How can I help you?"],
+        "context": [""]
+       },
+       {"tag": "Thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["Happy to help!"],
+       "context": [""]
+       },
+       {"tag": "Apply",
+       "patterns": [" ?"],
+       "responses": ["Visit our official website and press Apply Now tab to start your online application process. Please fill in all the blank spaces and make sure to submit a valid email since all communications including the request for missing documents and final acceptance will be via this email."],
+       "context": [""]
+       },
+       {"tag": "ًWebsiteApply",
+       "patterns": ["Where is the application on the website?"],
+       "responses": ["Apply Now tab shows up as a popup screen as you visit our MIU website and can still be seen in the right top corner of our Home page."],
+       "context": [""]
+       },
+       {"tag": "ًVisitAdmissionOffice",
+       "patterns": ["Can we apply by visiting the Admissions Office in person?"],
+       "responses": ["In our recent developments to reduce waiting time and digitalize our procedures, students can only apply online."],
+       "context": [""]
+       },
+       {"tag": "ًTanseekPortal",
+       "patterns": ["Can the applicant choose MIU on the government Tanseek portal?"],
+       "responses": ["Yes, if the subjects taken and scored received qualify the candidate to join MIU."],
+       "context": [""]
+       },
+       {"tag": "ًReschedulePlacementExam",
+       "patterns": ["Can the applicant reschedule the MIU Placement Exam?"],
+       "responses": ["Yes, applicants can change the exam date using the username and password of their MIU account, which is sent to them in the confirmation email (the first email an applicant receives once the application is successfully submitted)."],
+       "context": [""]
+       },
+       {"tag": "ApplicationFees",
+       "patterns": ["What are the required fees for the application?", "What is the application fees?", "What are the fees for the placement exam?"],
+       "responses": ["A nonrefundable amount of 1350 Egyptian pounds has to be paid online with a MasterCard / Visa credit card to book MIU online placement exam."],
+       "context": [""]
+       },
+       {"tag": "ApplicationInfo",
+       "patterns": ["What if applicants did not receive a confirmation email after submission of the online application?", "When do i receive the acceptance letter?", "When i can get the acceptance letter?"],
+       "responses": ["Make sure that the email you registered in the application is correct. If the applicant is sure the correct email was written in the application form, we can resend the confirmation email in response to an email request to admdocuments@miuegypt.edu.eg or a phone call."],
+       "context": [""]
+       },
+       {"tag": "ChangeEmail",
+       "patterns": ["How can applicants change their registered email?"],
+       "responses": ["The applicant can simply send us a request through the Admission Office active email (admdocuments@miuegypt.edu.eg) and s/he will automatically receive an MIU Confirmation Email."],
+       "context": [""]
+       },
+       {"tag": "ApplicationSubmission",
+       "patterns": ["How can applicants make sure that they have submitted a successful application online?"],
+       "responses": ["Once applicants have successfully completed and submitted an online application form they will receive an automated reply via the registered email confirming the receipt of your application with the applicant’s MIU account details: username ID, password, required documents, and instructions to follow."],
+       "context": [""]
+       },
+       {"tag": "EditApplicationForm",
+       "patterns": ["How can applicants edit an MIU application form after submission?"],
+       "responses": ["If applicants have not yet taken the MIU placement exam then they can log in to their MIU portal using their username and password to access their application and make necessary changes, including changing faculty choices."],
+       "context": [""]
+       },
+       {"tag": "ChangeFacultyChoice",
+       "patterns": ["How can applicants change the faculty choices after taking the MIU placement exam?"],
+       "responses": ["After taking the MIU placement exam, faculty changes are only allowed by sending us a request through the Admission Office active email (admdocuments@miuegypt.edu.eg). The email should be sent from the applicant’s email previously registered in the application form."],
+       "context": [""]
+       },
+       {"tag": "EarlyAdmissions",
+       "patterns": ["When does the application for early admissions start each year?"],
+       "responses": ["Early admissions start in December annually. The admission process continues through the summer until the end of mid August or according to the dates set by the Ministry of Higher Education."],
+       "context": [""]
+       },
+       {"tag": "GuaranteePlace",
+       "patterns": ["Does the early admission guarantee a place for applicants?"],
+       "responses": ["Early admission is a tool to ease the application procedures and does not guarantee acceptance or saving a place at MIU. According to the Egyptian Ministry of Higher Education and Scientific Research acceptance is based on the candidate’s final high school scores and the results of the online tanseek set by the Ministry of Higher Education. Acceptance is also based on passing the MIU placement test."],
+       "context": [""]
+       },
+       {"tag": "CampusTours",
+       "patterns": ["Does MIU offer campus tours before or during the application period?"],
+       "responses": ["Unfortunately, we only allow tours on the Orientation Day for accepted students before the beginning of the fall semester, usually in October. At the moment, you can virtually visit our campus, to ensure the safety of everyone."],
+       "context": [""]
+       },
+       {"tag": "MinimumPercentage",
+       "patterns": ["What is the minimum percentage to be accepted at MIU?"],
+       "responses": ["The minimum percentage required for each faculty is announced annually after Egyptian Thanawia Amma results are out by the Egyptian Ministry of Higher Education and Scientific Research."],
+       "context": [""]
+       },
+       {"tag": "AutomaticAcceptance",
+       "patterns": ["Will applicants be automatically accepted if they score above the minimum percentage required for the faculty?"],
+       "responses": ["Applicants should apply on the ministry’s website on time while making sure to choose MIU as their number one choice."],
+       "context": [""]
+       },
+       {"tag": "RequiredDocuments",
+       "patterns": ["What are the required documents for the application?"],
+       "responses": ["Applicants can find all the required documents on the MIU website under the Admission Requirements section. Once applicants fill out MIU online application, then they will receive the detailed required documents via email."],
+       "context": [""]
+       },
+       {"tag": "StampsDocuments",
+       "patterns": ["What are the stamps required on the original documents?"],
+       "responses": ["Applicants can find all details regarding the required documents on the MIU website under the Admission Requirements section. Documents differ according to the type of certificate."],
+       "context": [""]
+       },
+       {"tag": "OriginalDocuments",
+       "patterns": ["Should applicants submit original stamped documents during the application period?"],
+       "responses": ["MIU only requires copies of the original documents to be uploaded online. Each applicant can upload a PDF copy of his/her documents by logging in to the student portal using MIU username and password. You will find a labeled place for each document."],
+       "context": [""]
+       },
+       {"tag": "MandatoryAssessments",
+       "patterns": ["What are the mandatory assessments required for applying to MIU?"],
+       "responses": ["An English Placement Exam and a Reasoning (IQ) test are required for all faculties while an Aptitude Test is required for the Faculty of Engineering (whether the student is applying for the department of Architecture OR Electronics & Communication)."],
+       "context": [""]
+       },
+       {"tag": "PassingGrades",
+       "patterns": ["What are the passing grades for the English and Reasoning (IQ) placement tests?"],
+       "responses": ["English placement test is mainly a placement one; yet applicants should meet a minimum passing grade to be eligible for acceptance."],
+       "context": [""]
+       },
+       {"tag": "RetakeTests",
+       "patterns": ["Can applicants retake the online English Placement or Engineering Aptitude tests?"],
+       "responses": ["Applicants are not allowed to retake their English Placement exam or engineering Aptitude Test unless a year has passed since their exam date, in compliance with the university’s internal rules and regulations.  It is highly recommended that the applicant doesn’t sit for the MIU placement tests unless he or she is well-prepared."],
+       "context": [""]
+       },
+       {"tag": "AdmissionPractice",
+       "patterns": ["Does MIU offer any courses or academic material for practice?"],
+       "responses": ["The confirmation email delivered to candidates upon their successful submission of the application form will include an attachment sample of the English and Aptitude tests to prepare candidates for the actual assessment."],
+       "context": [""]
+       },
+       {"tag": "EngineeringAptitudeTest",
+       "patterns": ["What does the Aptitude Test for the Faculty of Engineering assess?"],
+       "responses": ["The Aptitude Test for the Department of Architecture is a drawing assessment and general questions related to the study of architecture while the Electronics and Communication Aptitude is a mixture of basic questions in math and physics."],
+       "context": [""]
+       },
+       {"tag": "FailAptitudeTestEng",
+       "patterns": ["What happens if the candidate fails to pass the aptitude test for Engineering?"],
+       "responses": ["Candidates who fail the aptitude test for the Faculty of Engineering will be informed by the Admission Office to update their faculty preferences by sending an email to (admdocuments@miuegypt.edu.eg)"],
+       "context": [""]
+       },
+       {"tag": "LowPercentage",
+       "patterns": ["What happens if the applicant scores a lower percentage than the required for their chosen faculty preference?"],
+       "responses": ["If the applicant fails to score the minimum-passing grade set by the Egyptian Ministry of Higher Education and Scientific Research, then they will not be eligible to join this faculty.  Applicants should be aware that the Admission Office will automatically switch to the second or third choice on their application. Accordingly, they should update their faculty choices while registering them on the Ministry of Higher Education portal for online tanseek for private universities."],
+       "context": [""]
+       },
+       {"tag": "MinistryPortal",
+       "patterns": ["How will applicants apply on the portal of the ministry?"],
+       "responses": ["The link for the portal will be activated for students to apply, once an application date is announced by the Ministry. (https: //www.cpnu-admission.edu.eg/)"],
+       "context": [""]
+       },
+       {"tag": "TanseekPortalChoices",
+       "patterns": ["How do I fill my choices on the tanseek portal?"],
+       "responses": ["You must fill out your university choices online making sure to choose MIU and the faculty of your choice in the same sequence registered in your MIU application form."],
+       "context": [""]
+       },
+       {"tag": "PortalLink",
+       "patterns": ["Where can i find the student portal?", "What is the student portal link?"],
+       "responses": ["https://portal.miuegypt.edu.eg/, You can open the student portal using this link."],
+       "context": [""]
+       },
+       {"tag": "E-Learning",
+       "patterns": ["Where can i find the E-Learning link?", "What is the moodle link?"],
+       "responses": ["https://moodle.miuegypt.edu.eg/, You can open the MIU Moodle using this link."],
+       "context": [""]
+       },
+       {"tag": "Calendar",
+       "patterns": ["Where can i find the year calendar?"],
+       "responses": ["https://www.miuegypt.edu.eg/wp-content/uploads/MIU-Academic-Calendar-2021-2022-V04.pdf, You can find the year calendar using this link"],
+       "context": [""]
+       },
+       {"tag": "Admission",
+       "patterns": ["What are the admission requirements?", "How does the admission work?", "What is the admission process?"],
+       "responses": ["* General Requirements (for all Certificates): Birth certificate or certified original. For non-Egyptians, the birth certificate must be stamped by their Embassy then by the Egyptian Ministry of Foreign Affairs, in case it wasn’t stamped from their country / Copy of National ID / 6 passport-size photos / Military Service Form “Namozag 2-3 Gond” (Egyptian males only) / Copy of passport and an “Approval Letter” for joining the University issued by the Embassy they are related to (for foreigners only), * Egyptian and Arab Thanaweya Amma Required Documents: The Official Secondary School Certificate / Arab certificates should be stamped from the Ministry of Education, Ministry of Foreign Affairs of that country and the Egyptian Embassy. * Foreign Certificates: Proof of 12 years of schooling / Proof of schooling from Arab countries must be stamped by the school, the Ministry of Education, the Ministry of Foreign Affairs of this country and the Egyptian Embassy in the foreign country / Foreign certificate holders from Egypt must submit proof stamped from the General Department of Examinations of passing Th. Amma exams for (Arabic, Religion and National subjects). * IGCSE Required Documents: IGCSE slips, stamped by the British Council, Ministry of Foreign Affairs and the General Department of Examinations / IGCSE holders from outside Egypt with a C grade in their O Levels must get a letter from the British Council stating that these courses are extended not core / IGCSE holders from outside Egypt must have their slips stamped by the British Council, the Egyptian Embassy and the Ministry of Foreign Affairs from the country related. * American Diploma Required Documents: An official transcript with grades 10, 11, and 12, stamped from the NCA-CASI or NAAS, the school and the General Department of Examinations in Egypt / If Grades 10, 11 and 12 are from different schools, separate transcripts are required for each grade / The Diploma must be stamped by the NCA-CASI or NAAS, the school and the General Department of Examinations in Egypt / A copy of the school’s accreditation from the Private Education department at the Ministry of Education / Official SAT-1 stamped from the AMIDEAST and the Egyptian Ministry of Foreign Affairs / SAT-II is considered a bonus for the student when calculating his/her final percentage grade; official SAT-II stamped from the AMIDEAST and the Egyptian Ministry of Foreign Affairs is required if it will be included in the calculation / Minimum scores for SAT-1 and SAT-II will be published as soon as received from Ministry of Higher Education / HSD holders from schools located outside Egypt must get the school’s “Accreditation Letter” from AMIDEAST / HSD holders from the USA must have their certificates and proof of 12 years of schooling stamped from the cultural attaché of Egypt in Washington and the school / HSD holders from Arab countries must have their certificates stamped from the Ministry of Education, Ministry of Foreign Affairs of that country and the Egyptian Embassy. * Canadian Certificate/French Baccalaureate/German Secondary Certificate (Abitur): Holders are to submit the results which will be evaluated according to the rules set by the Supreme Council of the Egyptian Universities. * Transfer Students: Transfer students must submit the “General Requirements” mentioned above, the papers related to their High School certificate in addition to an (Enrollment Letter “in Arabic”), a transcript and a course description stamped from the previous university / Transfer students from outside Egypt must stamp their documents from the Egyptian Embassy."],
+       "context": [""]
+       },
+       {"tag": "TransferStudent",
+       "patterns": ["How can a transfer student apply?"],
+       "responses": ["The University accepts students transferred from other accredited universities, provided that they satisfy the regulations set by the Board of Trustees & attain the high school certificate as per the rules & regulations set by the Supreme Council of the Egyptian Universities. Transfer students are required to submit an official statement of enrollment & an official transcript from an accredited university. For transfer credit requirements, they should submit to the department of the major concerned a stamped course description or a university catalogue that includes the course description. The number of transfer credits, quality of the academic record, type of completed courses and consistency of grades are also important considerations. Acceptance will be according to grades attained in previous university and places available at MIU. Transfer students who are willing to be enrolled in a major different from  their previous one, will be registered as freshman students regardless of the number of credit hours transferred to them."],
+       "context": [""]
+       },
+       {"tag": "AcademicLoad",
+       "patterns": ["What is the academic load?"],
+       "responses": ["The academic load is the number of credit hours a student carries in one semester. A regular student carries the following number of credit hours: (Faculty of Pharmacy (12-22 Credit Hours)), (Faculty of Engineering (12-22 Credit Hours)), (Faculty of Business Administration & International Trade (12-18 Credit Hours)), (Faculty of Mass Communication (12-18 Credit Hours)), (Faculty of Al-Alsun (12-18 Credit Hours)), (Faculty of Computer Science (12-18 Credit Hours)), (Faculty of Dentistry (load is determined by academic year. The academic load in the summer term is 2 courses))."],
+       "context": [""]
+       },
+       {"tag": "AcademicAdvising",
+       "patterns": ["How does the online advising work?"],
+       "responses": ["Each student is responsible for choosing and registering in his/her courses during the on-line advising period; otherwise, the schedule will be done by the academic advisor and the student will not be allowed to make any adjustments on it. The students should maintain regular contact with their assigned advisors to ensure fulfillment of university and departmental requirements and to remain aware of any changes in programs and requirements."],
+       "context": [""]
+       },
+       {"tag": "Probation",
+       "patterns": ["What is probation?", "How does probation work?"],
+       "responses": ["Students who fail to maintain a GPA of 2.00 will be placed on academic probation and will be restricted to a load of 12 credit hours or 4 courses per semester. Students on probation who are enrolled in the faculties of Pharmacy or Engineering can register for a maximum of 14 credit hours. The probationary period provides students with an opportunity to correct the deficiency in their GPA. This period may last for no more than three regular semesters. If students fail to achieve the required grade average by the end of the probationary period, they will be expelled."],
+       "context": [""]
+       },
+       {"tag": "AvoidProb",
+       "patterns": ["What can i do if i am placed on probation?"],
+       "responses": ["Students must maintain a minimum CUM GPA of 2.00 at the end of the academic semester or will be placed on a probation student, i.e. take a light load (4 courses + English Fundamentals (non credit) OR 3 courses + ENG100 or Freshman (credit)."],
+       "context": [""]
+       },
+       {"tag": "AddDrop",
+       "patterns": ["How can i add a course to my schedule?", "How can i drop a course from my schedule?"],
+       "responses": ["A student may add/drop a course or two during the first week of classes, depending on the available vacancy in the added course. It is the students’ responsibility to check his/her new schedule after add/drop to make sure that the action is done."],
+       "context": [""]
+       },
+       {"tag": "Drop",
+       "patterns": ["Can i drop a course after the midterms?", "Can i drop a course if i have a bad grade?"],
+       "responses": ["A student can drop any course(s) till the 10th week of the semester (the exact date is set in the university calendar)."],
+       "context": [""]
+       },
+       {"tag": "ExamAbsence",
+       "patterns": ["What happens if i missed my exam?", "What happens if i was absent in my exams?"],
+       "responses": ["Being absent in the final exam will lead to receiving an “F” grade even if the student scored the highest marks during the semester."],
+       "context": [""]
+       },
+       {"tag": "ChangeMajor",
+       "patterns": ["How can i change major?", "What should i do if i want to change major?"],
+       "responses": ["A student may change his/her major from one department or one faculty to another after fulfilling the following requirements: 1) Fill in a petition at the (SSO) following the announced dates. 2) The student should meet with his/her academic advisor. 3) The student’s score on the secondary school certificate should not be less than the score required for the new major and he/she must have studied the required subjects for the new major during the secondary stage. 4) Approval of Change of Major also depends on the student’s CUM GPA. 5) Approval is subject to availability of places in the new major. 6) Student’s GPA and academic status may change according to the major s/he transfers to. 7) The student should pass the aptitude exam if requested."],
+       "context": [""]
+       },
+       {"tag": "GradingSystem",
+       "patterns": ["How does the grading system work?", "What is the cumulative GPA?", "What is the major GPA?", "What is the grade scale?", "What are the grade letters?"],
+       "responses": ["Grades: A grade is the letter system by which students are evaluated through quizzes, exams, papers, attendance, participation in class, etc. The grade point average (GPA) is a number ranging from 0.00-4.00, which is a summary of students’ academic performance throughout the years. The GPA include a semester GPA which is the GPA of one semester only, a cumulative GPA which is the GPA of the courses taken throughout the years attended by the student at MIU (students must achieve a minimum cumulative GPA of 2.00 to be able to graduate), Major GPA which is It is the GPA of the courses completed for the major (students must achieve a minimum Major GPA of 2.00 to be able to graduate). The grade point average (GPA) is calculated by multiplying the grade value by the number of credit hours the course represents; the result is the column listed as Total Quality Point. The total quality point is then divided by the total credit hours, excluding the credit hours for WS/WU."],
+       "context": [""]
+       },
+       {"tag": "Scholarship",
+       "patterns": ["Does MIU provide a scholarship?"],
+       "responses": ["MIU provide two kinds of scholarships: Merit Scholarships (Egyptian students with high ranking scores in Thanaweya Amma or its equivalent will be awarded scholarships. The scholarships are awarded at the time of admissions for one year, after that they will be adjusted according to the student’s academic performance (cumulative GPA)) and Sports Achievement Awards (Students with superior ranking in sports will be granted scholarships for: 1) Participating in international or regional championships. 2) Ranking first place in an individual/team, played in a most recent championship. 3) Eligibility for these scholarships lasts one academic year. To benefit from this award the following year, a student should participate, in the name of the university in the National Universities tournament.)"],
+       "context": [""]
+       },
+       {"tag": "AlsunFees",
+       "patterns": ["What is the tuition fees of faculty of alsun?", "What is the faculty of alsun fees?"],
+       "responses": ["Fees per semester: EGP 33,250. Administrative fees: EGP 11,000."],
+       "context": [""]
+       },
+       {"tag": "BuisnessFees",
+       "patterns": ["What is the tuition fees of faculty of buisness?", "What is the faculty of buisness fees?"],
+       "responses": ["Fees per semester: EGP 46,000. Administrative fees: EGP 15,000."],
+       "context": [""]
+       },
+       {"tag": "ComputerScienceFees",
+       "patterns": ["What is the tuition fees of faculty of computer science?", "What is the faculty of computer science fees?"],
+       "responses": ["Fees per semester: EGP 36,100. Administrative fees: EGP 11,000."],
+       "context": [""]
+       },
+       {"tag": "DentistryFees",
+       "patterns": ["What is the tuition fees of faculty of Oral & Dental Medicine?", "What is the faculty of Oral & Dental Medicine fees?", "What is the tuition fees of faculty of dentistry?", "What is the faculty of dentistry fees?"],
+       "responses": ["Fees per semester: EGP 76,000. Administrative fees: EGP 18,000."],
+       "context": [""]
+       },
+       {"tag": "EngineeringFees",
+       "patterns": ["What is the tuition fees of faculty of Engineering Sciences & Arts?", "What is the faculty of Engineering Sciences & Arts fees?", "What is the tuition fees of faculty of architecture?", "What is the faculty of architecture fees?"],
+       "responses": ["Fees per semester: EGP 42,250. Administrative fees: EGP 12,000."],
+       "context": [""]
+       },
+       {"tag": "MasscomFees",
+       "patterns": ["What is the tuition fees of faculty of Mass Communication?", "What is the faculty of Mass Communication fees?", "What is the tuition fees of faculty of Mass com?", "What is the faculty of Mass com fees?"],
+       "responses": ["Fees per semester: EGP 46,000. Administrative fees: EGP 15,000."],
+       "context": [""]
+       },
+       {"tag": "PharmacyFees",
+       "patterns": ["What is the tuition fees of faculty of pharmacy?", "What is the faculty of pharmacy fees?"],
+       "responses": ["Fees per semester: EGP 51,500. Administrative fees: EGP 12,000."],
+       "context": [""]
+       },
+       {"tag": "FacultyOfAlsun",
+       "patterns": ["Where can i find information on the faculty of alsun?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-alsun/"],
+       "context": [""]
+       },
+       {"tag": "AlsunAdmission",
+       "patterns": ["How can i join the faculty of alsun?", "How can i enter the faculty of alsun?"],
+       "responses": [ "MIU admits applicants, seeking to apply for the Fall and Spring semesters, up to one year in advance of their anticipated date of first enrollment. All qualified applicants must sit for an English Placement Exam (EPE) upon which the level of English Language of each student is determined; however,passing this exam is not an indication of acceptance. Students must complete all the admission procedures which include a medical examination conducted by the university. Students can apply with copies of their certificates but will not be considered fully registered without the submission of their original documents. Transfer students must submit an official transcript from their former university alongside with the remaining required documents. MIU accepts various types of high school certificates that are all calculated according to the regulations set by the Supreme Council of  Egyptian Universities. MIU will not determine the final acceptance of candidates who have not submitted complete applications or documents."],
+       "context": [""]
+       },
+       {"tag": "AlsunAcademicProgram",
+       "patterns": ["What are the courses in the faculty of alsun?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-alsun/ , You can check the new curriculum in the academic program tab on the left through this link. \n The Faculty of Al-Alsun offers a four- year program (8 semesters) leading to a Bachelor’s Degree in English."],
+       "context": [""]
+       },
+       {"tag": "FacultyOfBuisness",
+       "patterns": ["Where can i find information on the faculty of buisness?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-business-2/"],
+       "context": [""]
+       },
+       {"tag": "BuisnessAdmission",
+       "patterns": ["How can i join the faculty of buisness?", "How can i enter the faculty of buisness?"],
+       "responses": ["MIU admits applicants, seeking to apply for the Fall and Spring semesters, up to one year in advance of their anticipated date of first enrollment. All qualified applicants must sit for an English Placement Exam (EPE) upon which the level of English Language of each student is determined; however,passing this exam is not an indication of acceptance. Students must complete all the admission procedures which include a medical examination conducted by the university. Students can apply with copies of their certificates but will not be considered fully registered without the submission of their original documents. Transfer students must submit an official transcript from their former university alongside with the remaining required documents. MIU accepts various types of high school certificates that are all calculated according to the regulations set by the Supreme Council of  Egyptian Universities. MIU will not determine the final acceptance of candidates who have not submitted complete applications or documents."],
+       "context": [""]
+       },
+       {"tag": "BuisnessAcademicProgram",
+       "patterns": ["What are the courses in the faculty of buisness?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-business-2/ , You can check the new curriculum in the academic program tab on the left through this link. \n The Faculty of Business Administration and International Trade offers a four- year program (8 semesters) leading to a Bachelor of Science degree in Business Administration."],
+       "context": [""]
+       },
+       {"tag": "FacultyOfComputerScience",
+       "patterns": ["Where can i find information on the faculty of computer science?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-computer-science-2/"],
+       "context": [""]
+       },
+       {"tag": "ComputerScienceAdmission",
+       "patterns": ["How can i join the faculty of computer science?"],
+       "responses": ["MIU admits applicants, seeking to apply for the Fall and Spring semesters, up to one year in advance of their anticipated date of first enrollment. All qualified applicants must sit for an English Placement Exam (EPE) upon which the level of English Language of each student is determined; however,passing this exam is not an indication of acceptance. Students must complete all the admission procedures which include a medical examination conducted by the university. Students can apply with copies of their certificates but will not be considered fully registered without the submission of their original documents. Transfer students must submit an official transcript from their former university alongside with the remaining required documents. MIU accepts various types of high school certificates that are all calculated according to the regulations set by the Supreme Council of  Egyptian Universities. MIU will not determine the final acceptance of candidates who have not submitted complete applications or documents."],
+       "context": [""]
+       },
+       {"tag": "ComputerScienceAcademicProgram",
+       "patterns": ["What are the courses in the faculty of buisness?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-computer-science-2/ , You can check the new curriculum in the academic program tab on the left through this link. \n The Faculty of Computer Sciences offers a four- year program (8 semesters) leading to a Bachelor of Science degree in Computer Sciences."],
+       "context": [""]
+       },
+       {"tag": "FacultyOfDentistry",
+       "patterns": ["Where can i find information on the faculty of Oral & Dental Medicine?", "Where can i find information on the faculty of dentistry"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-oral/"],
+       "context": [""]
+       },
+       {"tag": "DentistryAdmission",
+       "patterns": ["How can i join the faculty of Oral & Dental Medicine?", "How can i join the faculty of dentistry?"],
+       "responses": ["MIU admits applicants, seeking to apply for the Fall and Spring semesters, up to one year in advance of their anticipated date of first enrollment. All qualified applicants must sit for an English Placement Exam (EPE) upon which the level of English Language of each student is determined; however,passing this exam is not an indication of acceptance. Students must complete all the admission procedures which include a medical examination conducted by the university. Students can apply with copies of their certificates but will not be considered fully registered without the submission of their original documents. Transfer students must submit an official transcript from their former university alongside with the remaining required documents. MIU accepts various types of high school certificates that are all calculated according to the regulations set by the Supreme Council of  Egyptian Universities. MIU will not determine the final acceptance of candidates who have not submitted complete applications or documents."],
+       "context": [""]
+       },
+       {"tag": "DentistryAcademicProgram",
+       "patterns": ["What are the courses in the faculty of dentistry?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-oral/ , You can check the new curriculum in the academic program tab on the left through this link. \n The Faculty of Dentistry offers a five-year program (10 semesters) leading to a Bachelor of Dental Medicine and Surgery degree."],
+       "context": [""]
+       },
+       {"tag": "FacultyOfPharmacy",
+       "patterns": ["Where can i find information on the faculty of pharmacy?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-pharmacy-2/"],
+       "context": [""]
+       },
+       {"tag": "PharmacyAdmission",
+       "patterns": ["How can i join the faculty of pharmacy?"],
+       "responses": ["MIU admits applicants, seeking to apply for the Fall and Spring semesters, up to one year in advance of their anticipated date of first enrollment. All qualified applicants must sit for an English Placement Exam (EPE) upon which the level of English Language of each student is determined; however,passing this exam is not an indication of acceptance. Students must complete all the admission procedures which include a medical examination conducted by the university. Students can apply with copies of their certificates but will not be considered fully registered without the submission of their original documents. Transfer students must submit an official transcript from their former university alongside with the remaining required documents. MIU accepts various types of high school certificates that are all calculated according to the regulations set by the Supreme Council of  Egyptian Universities. MIU will not determine the final acceptance of candidates who have not submitted complete applications or documents."],
+       "context": [""]
+       },
+       {"tag": "PharmacyAcademicProgram",
+       "patterns": ["What are the courses in the faculty of pharmacy?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-pharmacy-2/ , You can check the new curriculum in the academic program tab on the left through this link."],
+       "context": [""]
+       },
+       {"tag": "FacultyOfMasscom",
+       "patterns": ["Where can i find information on the faculty of Mass Communication?", "Where can i find information on the faculty of Mass Com?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-mass-communication/"],
+       "context": [""]
+       },
+       {"tag": "MasscomAdmission",
+       "patterns": ["How can i join the faculty of Mass Communication?", "How can i join the faculty of Mass Com?"],
+       "responses": ["MIU admits applicants, seeking to apply for the Fall and Spring semesters, up to one year in advance of their anticipated date of first enrollment. All qualified applicants must sit for an English Placement Exam (EPE) upon which the level of English Language of each student is determined; however,passing this exam is not an indication of acceptance. Students must complete all the admission procedures which include a medical examination conducted by the university. Students can apply with copies of their certificates but will not be considered fully registered without the submission of their original documents. Transfer students must submit an official transcript from their former university alongside with the remaining required documents. MIU accepts various types of high school certificates that are all calculated according to the regulations set by the Supreme Council of  Egyptian Universities. MIU will not determine the final acceptance of candidates who have not submitted complete applications or documents."],
+       "context": [""]
+       },
+       {"tag": "MasscomAcademicProgram",
+       "patterns": ["What are the courses in the faculty of Mass Communication?", "What are the courses in the faculty of Mass Com?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-mass-communication/ , You can check the new curriculum in the academic program tab on the left through this link. \n The Faculty of Mass Communication offers a four-year program (8 semesters) leading to a Bachelor of Science degree in Mass Communication."],
+       "context": [""]
+       },
+       {"tag": "FacultyOfArchitecture",
+       "patterns": ["Where can i find information on the faculty of Architecture?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-architecture/"],
+       "context": [""]
+       },
+       {"tag": "ArchitectureAdmission",
+       "patterns": ["How can i join the faculty of Architecture?"],
+       "responses": ["MIU admits applicants, seeking to apply for the Fall and Spring semesters, up to one year in advance of their anticipated date of first enrollment. All qualified applicants must sit for an English Placement Exam (EPE) upon which the level of English Language of each student is determined; however,passing this exam is not an indication of acceptance. Students must complete all the admission procedures which include a medical examination conducted by the university. Students can apply with copies of their certificates but will not be considered fully registered without the submission of their original documents. Transfer students must submit an official transcript from their former university alongside with the remaining required documents. MIU accepts various types of high school certificates that are all calculated according to the regulations set by the Supreme Council of  Egyptian Universities. MIU will not determine the final acceptance of candidates who have not submitted complete applications or documents."],
+       "context": [""]
+       },
+       {"tag": "ArchitectureAcademicProgram",
+       "patterns": ["What are the courses in the faculty of Architecture?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-architecture/ , You can check the new curriculum in the academic program tab on the left through this link. \n The Department of Architecture offers a five-year program (10 semesters) leading to a Bachelor of Science degree in Engineering."],
+       "context": [""]
+       },
+       {"tag": "FacultyOfECE",
+       "patterns": ["Where can i find information on the faculty of Electronics and Communications?","Where can i find information on the faculty of ECE?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-electronics/"],
+       "context": [""]
+       },
+       {"tag": "ECEAdmission",
+       "patterns": ["How can i join the faculty of Electronics and Communications?", "How can i join the faculty of ECE?"],
+       "responses": ["MIU admits applicants, seeking to apply for the Fall and Spring semesters, up to one year in advance of their anticipated date of first enrollment. All qualified applicants must sit for an English Placement Exam (EPE) upon which the level of English Language of each student is determined; however,passing this exam is not an indication of acceptance. Students must complete all the admission procedures which include a medical examination conducted by the university. Students can apply with copies of their certificates but will not be considered fully registered without the submission of their original documents. Transfer students must submit an official transcript from their former university alongside with the remaining required documents. MIU accepts various types of high school certificates that are all calculated according to the regulations set by the Supreme Council of  Egyptian Universities. MIU will not determine the final acceptance of candidates who have not submitted complete applications or documents."],
+       "context": [""]
+       },
+       {"tag": "ECEAcademicProgram",
+       "patterns": ["What are the courses in the faculty of Electronics and Communications?", "What are the courses in the faculty of ECE?"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-electronics/ , You can check the new curriculum in the academic program tab on the left through this link. \n The Department of Electronics and Communication Engineering offers a five-year program (10 semesters) leading to a Bachelor of Science Degree in Engineering."],
+       "context": [""]
+       },
+       {"tag": "GradeDistribution",
+        "patterns": ["What is the grade distribution in the courses?"],
+        "responses": ["10% Attendance & Participation. 40% Mid-Term Assessment. 50% Final Assessment."],
+        "context": [""]
+       },
+       {"tag": "Services&Facilities",
+        "patterns": ["What services does the university provide?", "What are the university facilities?"],
+        "responses": ["Information Technology Department (ITD), English Language Program (ELP), Student Support Office (SSO), Research Guidance Center, Quality Assurance Office, Online Courses, Students’ Mail, Library, Dental Clinic, Open Access Labs, Internet Labs, Study Room, Video Room, Mass Media Studios, Food Venues, Football Playground, Music Room, Art Room, MIU Fitness Center, Bus Service"],
+        "context": [""]
+       },
+       {"tag": "StudentsOutsideCairo",
+       "patterns": ["Does MIU provide any campus residence facilities for enrolled students from outside Cairo?"],
+       "responses": ["Unfortunately, MIU does not own on-campus dorms nor can provide housing assistance outside the university for candidates. Candidates should provide their own accommodation. MIU is 25 minutes away from Heliopolis."],
+       "context": [""]
+       },
+       {"tag": "Transportation",
+       "patterns": ["Does MIU offer transportation and how much does it cost annually?"],
+       "responses": ["The university offers a first-rate transportation network. Subscription for MIU transportation is optional based on the student’s preference. The bus fees are announced annually on the MIU website and are not part of the tuition fees."],
+       "context": [""]
+       },
+       {"tag": "TransportationCoverage",
+       "patterns": ["Do the transportation routes cover all Cairo neighborhoods and other cities?"],
+       "responses": ["MIU transportation network covers Cairo, Giza, and Zagazig while the 6th of October City and Ismalia are not covered by the university bus routes."],
+       "context": [""]
+       },
+       {"tag": "DetailedBusRoutes",
+       "patterns": ["Can applicants know the detailed bus routes before acceptance?"],
+       "responses": ["When the applicant is finally accepted at MIU, s/he may contact our Transportation Office by phone for details.  MIU offers 3 pickup and 4 drop-off times to suit our students’ academic schedules."],
+       "context": [""]
+       },
+       {"tag": "RankingMIU",
+       "patterns": ["What is the ranking of MIU?", "MIU rank?"],
+       "responses": ["Misr International University rank in Egypt is 17 and the world rank is 5363."],
+       "context": [""]
+       },
+       {"tag": "noans",
+       "patterns": ["why", "how", "when", "I", "you", " ", "لماذا" , "كيف" , "متى" , "أنا" , "أنت", "ستياباسب"],
+       "responses": ["Sorry, Can't Understand Your Question \n عذرًا ، لا يمكنني فهم سؤالك", "Please elaborate your question \nالرجاء توضيح سؤالك ", "Please provide more information. \n الرجاء تقديم مزيد من المعلومات"],
+       "context": [""]
+       },
+       {"tag": "مرحبًا",
+       "patterns": ["مرحبًا" , "كيف حالك" , "هل يوجد أحد ؟" ,"مرحبا", "اهلا", "اهلا بك", "مساء الخير", "صباح الخير"],
+       "responses": ["مرحبًا , كيف يمكنني المساعدة ؟"],
+       "context": [""]
+       },
+       {"tag": "وداعًا",
+       "patterns": ["وداعًا" , "أراك لاحقًا" , "وداعًا" , "لطيفة الدردشة معك , وداعًا" , "شكرًا لك على مساعدتك"],
+       "responses": ["مع السلامة, اراك لاحقا!"],
+       "context": [""]
+       },
+       {"tag": "كيف حالك",
+        "patterns": ["كيف حالك"],
+        "responses": ["شكرا على سؤالك! كيف يمكنني مساعدتك ؟"],
+        "context": [""]
+       },
+       {"tag": "شكرًا",
+       "patterns": ["شكرًا" , "شكرًا" , "هذا مفيد" , "رائع ، شكرًا" , "شكرًا لمساعدتي"],
+       "responses": ["سررت بالمساعدة!"],
+       "context": [""]
+       },
+       {"tag": "التقديم",
+       "patterns": ["كيف يمكننا التقديم ؟", "كيف يمكننا الالتحاق بالجامعة ؟", "كيف يمكنني الالتحاق بالجامعة ؟", "كيف يمكنني التقديم ؟"],
+       "responses": ["قم بزيارة موقعنا الرسمي واضغط على علامة التبويب  لبدء عملية التقديم عبر الإنترنت. يرجى ملء جميع المساحات الفارغة والتأكد من إرسال بريد إلكتروني صالح لأن جميع الاتصالات بما في ذلك طلب المستندات المفقودة والقبول النهائي ستكون عبر هذا البريد الإلكتروني"],
+       "context": [""]
+       },
+       {"tag": "التطبيق",
+       "patterns": ["أين التطبيق على الموقع ؟", "أين التطبيق في الموقع ؟"],
+       "responses": ["تظهر علامة التبويب كشاشة منبثقة أثناء زيارتك للموقع على الويب ولا يزال من الممكن رؤيتها في الزاوية العلوية اليمنى من صفحتنا الرئيسية."],
+       "context": [""]
+       },
+       {"tag": "ًmaktbeladdmission",
+       "patterns": ["هل يمكننا التقديم من خلال زيارة مكتب القبول شخصيًا ؟", "هل يمكنني التقديم من خلال زيارة مكتب القبول شخصيًا ؟"],
+       "responses": ["في تطوراتنا الأخيرة لتقليل وقت الانتظار ورقمنة إجراءاتنا ، يمكن للطلاب التقديم عبر الإنترنت فقط."],
+       "context": [""]
+       },
+       {"tag": "tansek",
+       "patterns": ["هل يمكن للمتقدم اختيار جامعة مصر على بوابة التنسيق الحكومية ؟", "هل يمكنني اختيار جامعة مصر على بوابة التنسيق الحكومية ؟"],
+       "responses": ["نعم ، إذا كانت الموضوعات التي تم أخذها وحصلت عليها تؤهل المرشح للانضمام إلى جامعة مصر."],
+       "context": [""]
+       },
+       {"tag": "2e3adetelgadwal",
+       "patterns": ["هل يمكن لمقدم الطلب إعادة جدولة امتحان تحديد المستوى في جامعة مصر ؟", "هل يمكننني إعادة جدولة امتحان تحديد المستوى في جامعة مصر ؟" , "هل يمكن للمتقدمين إعادة جدولة امتحان تحديد المستوى في جامعة مصر ؟", "هل يمكنن للمتقدمين إعادة جدولة امتحان تحديد المستوى في جامعة مصر ؟"],
+       "responses": ["نعم ، يمكن للمتقدمين تغيير تاريخ الاختبار باستخدام اسم المستخدم وكلمة المرور لحساب  الخاص بهم ، والذي يتم إرساله إليهم في رسالة البريد الإلكتروني للتأكيد (أول رسالة بريد إلكتروني يتلقاها مقدم الطلب بمجرد تقديم الطلب بنجاح)"],
+       "context": [""]
+       },
+       {"tag": "masarefelta2dem",
+       "patterns": ["ما هي الرسوم المطلوبة لتقديم الطلب ؟" , "ما هي رسوم التقديم ؟" , "ما هي رسوم امتحان تحديد المستوى ؟", "ما هي المصروفات المطلوبة لتقديم الطلب ؟" , "ما هي مصروفات التقديم ؟" , "ما هي مصروفات امتحان تحديد المستوى ؟", "ما هي المصاريف المطلوبة لتقديم الطلب ؟" , "ما هي مصاريف التقديم ؟" , "ما هي مصاريف امتحان تحديد المستوى ؟"],
+       "responses": ["يجب دفع مبلغ 1350 جنيهًا مصريًا غير قابل للاسترداد عبر الإنترنت باستخدام بطاقة ائتمان ماستركارد / فيزا لحجز امتحان تحديد المستوى عبر الإنترنت"],
+       "context": [""]
+       },
+       {"tag": "tafaselelapplication",
+       "patterns": ["ماذا لو لم يتلق مقدمو الطلبات رسالة تأكيد بالبريد الإلكتروني بعد تقديم الطلب عبر الإنترنت ؟" , "متى أتلقى خطاب القبول ؟" , "متى يمكنني الحصول على خطاب القبول ؟"],
+       "responses": ["تأكد من صحة البريد الإلكتروني الذي سجلته في الطلب. إذا كان مقدم الطلب متأكدًا من كتابة البريد الإلكتروني الصحيح في نموذج الطلب ، فيمكننا إعادة إرسال بريد التأكيد الإلكتروني ردًا على طلب البريد الإلكتروني إلى admdocuments@miuegypt.edu.eg أو اتصال هاتفي"],
+       "context": [""]
+       },
+       {"tag": "ta8yerelemail",
+       "patterns": ["كيف يمكن للمتقدمين تغيير بريدهم الإلكتروني المسجل ؟", "كيف يمكنني تغيير بريدي الإلكتروني المسجل ؟", "كيف يمكنني تغيير البريد الإلكتروني المسجل ؟"],
+       "responses": ["يمكن لمقدم الطلب ببساطة إرسال طلب إلينا من خلال البريد الإلكتروني النشط لمكتب القبول (admdocuments@miuegypt.edu.eg) وستتلقى الجامعة بريدًا إلكترونيًا لتأكيد  تلقائيًا."],
+       "context": [""]
+       },
+       {"tag": "appsub",
+       "patterns": ["كيف يمكن للمتقدمين التأكد من أنهم قدموا طلبًا ناجحًا عبر الإنترنت ؟", "كيف يمكنني التأكد من أني قدمت طلبًا ناجحًا عبر الإنترنت ؟"],
+       "responses": ["بمجرد إكمال المتقدمين وتقديم نموذج طلب عبر الإنترنت بنجاح ، سيتلقون ردًا آليًا عبر البريد الإلكتروني المسجل لتأكيد استلام طلبك مع تفاصيل حساب الجامعة لمقدم الطلب: معرف اسم المستخدم وكلمة المرور والمستندات المطلوبة وإرشادات للمتابعة"],
+       "context": [""]
+       },
+       {"tag": "editapp",
+       "patterns": ["كيف يمكن للمتقدمين تحرير نموذج طلب الجامعة بعد التقديم ؟", "كيف يمكنني تحرير نموذج طلب الجامعة بعد التقديم ؟"],
+       "responses": ["إذا لم يكن المتقدمون قد اجتازوا حتى الآن اختبار تحديد مستوى الجامعة ، فيمكنهم تسجيل الدخول إلى بوابة الخاصة بهم باستخدام اسم المستخدم وكلمة المرور للوصول إلى طلباتهم وإجراء التغييرات اللازمة ، بما في ذلك تغيير خيارات أعضاء هيئة التدريس"],
+       "context": [""]
+       },
+       {"tag": "ChgFac",
+       "patterns": ["كيف يمكن للمتقدمين تغيير خيارات أعضاء هيئة التدريس بعد إجراء اختبار تحديد المستوى في الجامعة ؟" , "كيف يمكنني تغيير خيارات أعضاء هيئة التدريس بعد إجراء اختبار تحديد المستوى في الجامعة ؟"] ,
+       "responses": ["بعد إجراء اختبار تحديد مستوى للجامعة ، لا يُسمح بتغيير أعضاء هيئة التدريس إلا عن طريق إرسال طلب إلينا عبر البريد الإلكتروني النشط لمكتب القبول (admdocuments@miuegypt.edu.eg). يجب إرسال البريد الإلكتروني من البريد الإلكتروني لمقدم الطلب المسجل مسبقًا في نموذج الطلب"],
+       "context": [""]
+       },
+       {"tag": "emtayebd2",
+       "patterns": ["متى يبدأ التقديم للقبول المبكر كل عام ؟"],
+       "responses": ["ويبدأ القبول المبكر في شهر ديسمبر من كل عام وتستمر عملية القبول خلال الصيف حتى نهاية منتصف أغسطس أو حسب المواعيد التي تحددها وزارة التعليم العالي."],
+       "context": [""]
+       },
+       {"tag": "rantee",
+       "patterns": ["هل يضمن القبول المبكر مكانًا للمتقدمين ؟" , "هل يضمن القبول المبكر مكانًا للمتقدم ؟"],
+       "responses": ["القبول المبكر هو أداة لتسهيل إجراءات التقديم ولا يضمن القبول أو الاحتفاظ بمكان في الجامعة. وفقًا لوزارة التعليم العالي والبحث العلمي المصرية ، يعتمد القبول على درجات الثانوية العامة النهائية للمرشح ونتائج التنسيق عبر الإنترنت الذي حددته وزارة التعليم العالي. ويعتمد القبول أيضًا على اجتياز اختبار تحديد المستوى"],
+       "context": [""]
+       },
+       {"tag": "ra7alat",
+       "patterns": ["هل تقدم الجامعة جولات في الحرم الجامعي قبل أو أثناء فترة التقديم ؟"],
+       "responses": ["لسوء الحظ ، نسمح فقط بجولات في يوم التوجيه للطلاب المقبولين قبل بداية فصل الخريف ، عادةً في أكتوبر. في الوقت الحالي ، يمكنك زيارة الحرم الجامعي تقريبًا ، لضمان سلامة الجميع."],
+       "context": [""]
+       },
+       {"tag": "minper",
+       "patterns": ["ما هو الحد الأدنى للنسبة المقبولة في الجامعة ؟" , "الحد الأدنى"],
+       "responses": ["يتم الإعلان عن الحد الأدنى من النسبة المئوية المطلوبة لكل كلية سنويًا بعد إعلان وزارة التعليم العالي والبحث العلمي المصرية عن نتائج الثانوية العامة المصرية"],
+       "context": [""]
+       },
+       {"tag": "autoatt",
+       "patterns": ["هل سيتم قبول المتقدمين تلقائيًا إذا حصلوا على درجات أعلى من الحد الأدنى للنسبة المطلوبة للكلية ؟"],
+       "responses": ["يجب على المتقدمين التقديم على موقع الوزارة في الوقت المحدد مع التأكد من اختيار جامعة مصر كخيارهم الأول."],
+       "context": [""]
+       },
+       {"tag": "reqdoc",
+       "patterns": ["ما هي المستندات المطلوبة للتطبيق ؟" , "ما هي الاوراق المطلوبة للتطبيق ؟"],
+       "responses": ["يمكن للمتقدمين العثور على جميع المستندات المطلوبة على موقع الجامعة الإلكتروني ضمن قسم متطلبات القبول. بمجرد أن يملأ المتقدمون طلب عبر الإنترنت ، سيتلقون المستندات المطلوبة التفصيلية عبر البريد الإلكتروني"],
+       "context": [""]
+       },
+       {"tag": "stmpdoc",
+       "patterns": ["ما هي الطوابع المطلوبة على المستندات الأصلية ؟" , "الطوابع"],
+       "responses": ["يمكن للمتقدمين العثور على جميع التفاصيل المتعلقة بالمستندات المطلوبة على موقع الجامعة الإلكتروني ضمن قسم متطلبات القبول. تختلف المستندات وفقًا لنوع الشهادة"],
+       "context": [""]
+       },
+       {"tag": "ORDoc",
+       "patterns": ["هل يجب على المتقدمين تقديم المستندات الأصلية المختومة خلال فترة التقديم ؟" , "هل يجب على المتقدم تقديم المستندات الأصلية المختومة خلال فترة التقديم ؟"],
+       "responses": ["تتطلب الجامعة فقط تحميل نسخ من المستندات الأصلية عبر الإنترنت. يمكن لكل متقدم تحميل نسخة PDF من مستنداته عن طريق تسجيل الدخول إلى بوابة الطالب باستخدام اسم المستخدم وكلمة المرور الجامعة. ستجد مكانًا مُسمى لكل مستند."],
+       "context": [""]
+       },
+       {"tag": "takyemat",
+       "patterns": ["ما هي التقييمات الإلزامية المطلوبة للتقدم إلى جامعة مصر ؟" , "ما هي التقييمات المطلوبة للتقدم إلى جامعة مصر ؟"],
+       "responses": ["اختبار تحديد مستوى اللغة الإنجليزية واختبار الذكاء مطلوبان لجميع الكليات بينما يكون اختبار القدرات مطلوبًا لكلية الهندسة (سواء كان الطالب يتقدم إلى قسم الهندسة المعمارية أو الإلكترونيات والاتصالات)"],
+       "context": [""]
+       },
+       {"tag": "Pasrades",
+       "patterns": ["ما هي درجات النجاح في اختبارات تحديد المستوى في اللغة الإنجليزية و اختبار الذكاء ؟" , "درجات النجاح" , "اختبارات تحديد المستوى"],
+       "responses": ["اختبار تحديد المستوى في اللغة الإنجليزية هو في الأساس اختبار تحديد المستوى ؛ ومع ذلك يجب على المتقدمين استيفاء الحد الأدنى من درجات النجاح ليكونوا مؤهلين للقبول."],
+       "context": [""]
+       },
+       {"tag": "etakeTes",
+       "patterns": ["هل يمكن للمتقدمين إعادة اختبار تحديد مستوى اللغة الإنجليزية أو اختبارات الكفاءة الهندسية عبر الإنترنت ؟" , "هل يمكن للمتقدم إعادة اختبار تحديد مستوى اللغة الإنجليزية أو اختبارات الكفاءة الهندسية عبر الإنترنت ؟" , "هل يمكنني إعادة اختبار تحديد مستوى اللغة الإنجليزية أو اختبارات الكفاءة الهندسية عبر الإنترنت ؟"],
+       "responses": ["لا يُسمح للمتقدمين بإعادة اختبار تحديد المستوى في اللغة الإنجليزية أو اختبار القدرات الهندسية إلا بعد مرور عام على تاريخ الامتحان ، وفقًا للقواعد واللوائح الداخلية للجامعة. يوصى بشدة ألا يجلس مقدم الطلب في وضع اختبارات الجامعة ما لم يكن مستعدًا جيدًا "],
+       "context": [""]
+       },
+       {"tag": "dmissionPrac",
+       "patterns": ["هل تقدم جامعة مصر أي دورات أو مواد أكاديمية للممارسة ؟"],
+       "responses": ["ستتضمن رسالة التأكيد التي يتم تسليمها إلى المرشحين عند تقديمهم بنجاح لنموذج الطلب عينة مرفقة من اختبارات اللغة الإنجليزية والقدرات لإعداد المرشحين للتقييم الفعلي."],
+       "context": [""]
+       },
+       {"tag": "e5tebarelkafa2a",
+       "patterns": ["ما الذي يقيِّمه اختبار القدرات لكلية الهندسة ؟"],
+       "responses":["اختبار الكفاءة لقسم الهندسة المعمارية هو تقييم للرسم وأسئلة عامة تتعلق بدراسة الهندسة المعمارية بينما تعد كفاءة الإلكترونيات والاتصالات مزيجًا من الأسئلة الأساسية في الرياضيات والفيزياء."],
+       "context": [""]
+       },
+       {"tag": "failtesteng",
+       "patterns": ["ماذا يحدث إذا فشل المرشح في اجتياز اختبار القدرات في الهندسة ؟"],
+       "responses": ["سيتم إبلاغ المرشحين الذين يفشلون في اختبار القدرات لكلية الهندسة من قبل مكتب القبول لتحديث تفضيلات أعضاء هيئة التدريس عن طريق إرسال بريد إلكتروني إلى (admdocuments@miuegypt.edu.eg)"],
+       "context": [""]
+       },
+       {"tag": "lperc",
+       "patterns": ["ماذا يحدث إذا حصل مقدم الطلب على نسبة مئوية أقل من المطلوبة لتفضيل هيئة التدريس التي اختاروها ؟"],
+       "responses": ["إذا فشل المتقدم في الحصول على الحد الأدنى للنجاح الذي حددته وزارة التعليم العالي والبحث العلمي المصرية ، فلن يكون مؤهلاً للانضمام إلى هذه الكلية. يجب أن يكون المتقدمون على دراية بأن مكتب القبول سيتحول تلقائيًا إلى الدرجة الثانية أو الثانية. الاختيار الثالث في طلبهم ، وعليه ، يجب عليهم تحديث خيارات أعضاء هيئة التدريس الخاصة بهم أثناء تسجيلهم في بوابة وزارة التعليم العالي لتنسيق عبر الإنترنت للجامعات الخاصة "],
+       "context": [""]
+       },
+       {"tag": "wezara",
+       "patterns": ["كيف سيتم التقديم على بوابة الوزارة ؟" , "بوابة الوزارة"],
+       "responses": ["سيتم تفعيل رابط البوابة الإلكترونية للطلاب للتقدم بمجرد إعلان الوزارة عن تاريخ التقديم. (https: //www.cpnu-admission.edu.eg/)"],
+       "context": [""]
+       },
+       {"tag": "tanse2port",
+       "patterns": ["كيف استطيع ملء اختياراتي على بوابة تنسيق ؟"],
+       "responses": ["يجب عليك ملء اختياراتك الجامعية عبر الإنترنت مع التأكد من اختيار جامعة مصر والكلية التي تختارها بنفس التسلسل المسجل في نموذج طلب الجامعة الخاص بك."],
+       "context": [""]
+       },
+       {"tag": "Porlink",
+       "patterns": ["أين يمكنني أن أجد بوابة الطالب ؟" , "ما هو رابط بوابة الطالب ؟"],
+       "responses": ["https://portal.miuegypt.edu.eg/ ، يمكنك فتح بوابة الطالب باستخدام هذا الرابط."],
+       "context": [""]
+       },
+       {"tag": "el",
+       "patterns": ["أين أجد رابط التعلم الإلكتروني ؟" , "ما هو رابط موودل ؟"],
+       "responses": ["https://moodle.miuegypt.edu.eg/ ، يمكنك فتح الموودل باستخدام هذا الرابط."],
+       "context": [""]
+       },
+       {"tag": "cal",
+       "patterns": ["أين يمكنني العثور على تقويم العام ؟"],
+       "responses": ["https://www.miuegypt.edu.eg/wp-content/uploads/MIU-Academic-Calendar-2021-2022-V04.pdf ، يمكنك العثور على التقويم السنوي باستخدام هذا الرابط"],
+       "context": [""]
+       },
+       {"tag": "addmi",
+       "patterns": ["ما هي شروط القبول ؟" , "كيف يتم القبول ؟" , "ما هي عملية القبول ؟"],
+       "responses": ["* المتطلبات العامة (لجميع الشهادات): شهادة الميلاد أو أصل مصدّق. بالنسبة لغير المصريين ، يجب أن تكون شهادة الميلاد مختومة من سفارتهم ثم وزارة الخارجية المصرية ، في حالة عدم ختمها من بلدهم / نسخة من الهوية الوطنية / 6 صور بحجم جواز السفر / نموذج الخدمة العسكرية Namozag 2-3 جوند (للذكور المصريين فقط) / نسخة من جواز السفر و خطاب موافقة للالتحاق بالجامعة صادرة عن السفارة المرتبطين بها (للأجانب فقط) ، * الثانوية المصرية والعربية أما المستندات المطلوبة: الثانوية الرسمية يجب أن تكون الشهادة الدراسية / الشهادات العربية مختومة من وزارة التربية والتعليم ووزارة الخارجية في تلك الدولة والسفارة المصرية. * الشهادات الأجنبية: إثبات 12 عامًا من الدراسة / إثبات التعليم من الدول العربية يجب أن يكون مختومًا من المدرسة ووزارة التربية والتعليم ووزارة الخارجية في هذا البلد والسفارة المصرية في الدولة الأجنبية / حاملي الشهادات الأجنبية من يجب على مصر تقديم إثبات مختوم من الإدارة العامة للامتحانات لاجتياز Th. امتحانات عم لمواد (العربية ، الدين ، الوطنية). * المستندات المطلوبة لـ IGCSE: قسائم IGCSE ، مختومة من قبل المجلس الثقافي البريطاني ووزارة الخارجية والإدارة العامة للامتحانات / يجب على حاملي IGCSE من خارج مصر بدرجة C في مستويات O الخاصة بهم الحصول على خطاب من المجلس الثقافي البريطاني يفيد بأن هذه الدورات ليسوا أساسيين / حاملي الشهادة الدولية العامة للتعليم الثانوي (IGCSE) من خارج مصر يجب أن يتم ختم قسائمهم من قبل المجلس الثقافي البريطاني والسفارة المصرية ووزارة الخارجية من الدولة ذات الصلة. * المستندات المطلوبة للدبلومة الأمريكية: نسخة رسمية من الصفوف 10 و 11 و 12 ، مختومة من NCA-CASI أو NAAS ، والمدرسة والإدارة العامة للامتحانات في مصر / إذا كانت الصفوف 10 و 11 و 12 من مدارس مختلفة ، مطلوب نسخ منفصلة لكل درجة / يجب ختم الدبلوم من قبل NCA-CASI أو NAAS والمدرسة والإدارة العامة للامتحانات في مصر / نسخة من اعتماد المدرسة من قسم التعليم الخاص في وزارة التربية والتعليم / مسؤول يعتبر SAT-1 المختوم من AMIDEAST ووزارة الخارجية المصرية / SAT-II مكافأة للطالب عند حساب درجته المئوية النهائية ؛ مطلوب SAT-II رسميًا مختومًا من AMIDEAST ووزارة الخارجية المصرية إذا كان سيتم إدراجه في الحساب / سيتم نشر الحد الأدنى من الدرجات لـ SAT-1 و SAT-II بمجرد استلامها من وزارة التعليم العالي / HSD يجب على حاملي المدارس الموجودة خارج مصر الحصول على خطاب اعتماد المدرسة من حاملي AMIDEAST / HSD من الولايات المتحدة الأمريكية ، ويجب أن يكون لديهم شهاداتهم وإثبات 12 عامًا من التعليم مختومًا من الملحق الثقافي لمصر في واشنطن وحاملي المدرسة / HSD من العرب يجب أن تكون شهاداتها مختومة من وزارة التربية والتعليم ووزارة الخارجية في تلك الدولة والسفارة المصرية. * الشهادة الكندية / البكالوريا الفرنسية / الشهادة الثانوية الألمانية (Abitur): على حاملي الشهادة تقديم النتائج التي سيتم تقييمها وفقًا للقواعد التي يضعها المجلس الأعلى للجامعات المصرية. * الطلاب المحولون: يجب على الطلاب المحولين تقديم المتطلبات العامة المذكورة أعلاه ، والأوراق المتعلقة بشهادة الثانوية العامة بالإضافة إلى (خطاب التحاق باللغة العربية) ، وكشف درجات ووصف مقرر مختوم من الجامعة السابقة / التحويل يجب على الطلاب من خارج مصر ختم مستنداتهم من السفارة المصرية "],
+       "context": [""]
+       },
+       {"tag": "transstd",
+       "patterns": ["كيف يمكن للطالب المنقول التقدم ؟" , "كيف يمكن للطالب المنقول التقدم في الجامعة ؟"],
+       "responses": ["تقبل الجامعة الطلاب المحولين من جامعات أخرى معترف بها بشرط استيفائهم للوائح التي يضعها مجلس الأمناء وحصولهم على شهادة الثانوية العامة حسب القواعد واللوائح التي يضعها المجلس الأعلى للجامعات المصرية. تقديم بيان رسمي بالتسجيل ونسخة رسمية من جامعة معترف بها.لشروط تحويل الساعات يجب أن يقدموا لقسم التخصص المختوم وصف مقرر مختوم أو كتالوج جامعي يتضمن وصف الدورة. عدد الاعتمادات المحولة ، تعد جودة السجل الأكاديمي ونوع الدورات المكتملة واتساق الدرجات من الاعتبارات المهمة أيضًا. سيكون القبول وفقًا للدرجات التي تم الحصول عليها في الجامعة السابقة والأماكن المتاحة في الجامعة. الطلاب المحولون الذين يرغبون في التسجيل في تخصص مختلف عن السابق واحد ، سيتم تسجيله كطلاب مستجد بغض النظر عن ر عدد الساعات المعتمدة المحولة لهم "],
+       "context": [""]
+       },
+       {"tag": "acaLoad",
+       "patterns": ["ما هو العبء الأكاديمي ؟"],
+       "responses": ["العبء الأكاديمي هو عدد الساعات المعتمدة التي يحملها الطالب في فصل دراسي واحد ، ويحمل الطالب العادي العدد التالي من الساعات المعتمدة: (كلية الصيدلة (12-22 ساعة معتمدة)) ، (كلية الهندسة (12-22 ساعة معتمدة) ساعة معتمدة)) ، (كلية إدارة الأعمال والتجارة الدولية (12-18 ساعة معتمدة)) ، (كلية الإعلام (12-18 ساعة معتمدة)) ، (كلية الألسن (12-18 ساعة معتمدة)) ، (كلية علوم الحاسب (12-18 ساعة معتمدة)) ، (كلية طب الأسنان (يتم تحديد العبء حسب العام الدراسي. العبء الأكاديمي في الفصل الصيفي 2 مقرر)) "],
+       "context": [""]
+       },
+       {"tag": "AcaAvd",
+       "patterns": ["كيف تعمل الإرشاد عبر الإنترنت ؟" , "كيف يعمل الإرشاد عبر الإنترنت ؟" , "الإرشاد"],
+       "responses": ["كل طالب مسؤول عن الاختيار والتسجيل في دوراته / دوراتها خلال فترة الإرشاد عبر الإنترنت ؛ وإلا فسيتم إعداد الجدول من قبل المرشد الأكاديمي ولن يُسمح للطالب بإجراء أي تعديلات عليه. يجب على الطلاب الحفاظ على اتصال منتظم مع المستشارين المعينين لهم لضمان استيفاء متطلبات الجامعة والإدارات والبقاء على علم بأي تغييرات في البرامج والمتطلبات "],
+       "context": [""]
+       },
+       {"tag": "bation",
+       "patterns": ["ما هو الاختبار ؟", "كيف يعمل الاختبار ؟", "الاختبار"],
+       "responses": ["الطلاب الذين يفشلون في الحفاظ على معدل تراكمي 2.00 سيوضعون تحت المراقبة الأكاديمية ويقتصرون على 12 ساعة معتمدة أو 4 دورات لكل فصل دراسي. ويمكن للطلاب الخاضعين للاختبار المسجلين في كليات الصيدلة أو الهندسة التسجيل في 14 ساعة معتمدة كحد أقصى. توفر فترة الاختبار للطلاب فرصة لتصحيح النقص في المعدل التراكمي الخاص بهم. وقد لا تزيد هذه الفترة عن ثلاثة فصول دراسية عادية. إذا فشل الطلاب في تحقيق متوسط الدرجة المطلوب بنهاية فترة الاختبار سيتم طردهم "],
+       "context": [""]
+       },
+       {"tag": "AvProb",
+       "patterns": ["ماذا أفعل إذا وضعت تحت المراقبة ؟" , "المراقبة"],
+       "responses": ["يجب على الطلاب الحفاظ على معدل CUM GPA بحد أدنى 2.00 في نهاية الفصل الدراسي أو سيتم وضعهم على طالب تحت الاختبار ، أي أن يأخذوا حملًا خفيفًا (4 دورات + أساسيات اللغة الإنجليزية (غير معتمدة) أو 3 دورات + ENG100 أو طالب جديد (رصيد) )."],
+       "context": [""]
+       },
+       {"tag": "adddro",
+       "patterns": ["كيف يمكنني إضافة دورة إلى جدولي ؟" , "كيف يمكنني حذف مقرر من جدولي ؟" , "كيف يمكنني إضافة كورس إلى جدولي ؟" , "اضافة" , "حذف"],
+       "responses": ["يجوز للطالب إضافة / حذف دورة أو دورتين خلال الأسبوع الأول من الفصول الدراسية ، اعتمادًا على الوظيفة الشاغرة في الدورة المضافة. تقع على عاتق الطلاب مسؤولية التحقق من جدوله الجديد بعد الإضافة / الإفلات للتأكد من أن تم العمل "],
+       "context": [""]
+       },
+       {"tag": "rop",
+       "patterns": ["هل يمكنني حذف مقرر بعد منتصف الفصل الدراسي ؟" , "هل يمكنني حذف مقرر إذا كان لدي تقدير سيئ ؟"],
+       "responses": ["يمكن للطالب حذف أي مقرر (دورات) حتى الأسبوع العاشر من الفصل الدراسي (التاريخ المحدد في التقويم الجامعي)."],
+       "context": [""]
+       },
+       {"tag": "8eyabelexam",
+       "patterns": ["ماذا يحدث إذا فاتني امتحاني ؟" , "ماذا يحدث إذا كنت غائبًا في الاختبارات الخاصة بي ؟" , "غائبًا" , "غائب"],
+       "responses": ["التغيب عن الامتحان النهائي يؤدي إلى حصوله على تقدير F حتى لو حصل الطالب على أعلى الدرجات خلال الفصل الدراسي"],
+       "context": [""]
+       },
+       {"tag": "changmaj",
+       "patterns": ["كيف يمكنني تغيير التخصص الرئيسي ؟" , "ماذا أفعل إذا كنت أريد تغيير التخصص الرئيسي ؟" , "تغيير" , "تحويل"],
+       "responses": ["يجوز للطالب تغيير تخصصه من قسم أو كلية إلى قسم آخر بعد استيفاء المتطلبات التالية: 1) تعبئة عريضة في (SSO) بعد المواعيد المعلنة. 2) يجب على الطالب مقابلة أكاديميته 3) يجب ألا تقل درجة الطالب في شهادة الثانوية العامة عن الدرجة المطلوبة للتخصص الجديد وأن يكون قد درس المواد المطلوبة للتخصص الجديد خلال المرحلة الثانوية .4) الموافقة على تغيير التخصص يعتمد أيضًا على CUM GPA للطالب. إذا طلب."],
+       "context": [""]
+       },
+       {"tag": "gradsys",
+       "patterns": ["كيف يعمل نظام الدرجات ؟" , "ما هو المعدل التراكمي ؟" , "ما هو المعدل التراكمي الرئيسي ؟" , "ما هو مقياس الدرجات ؟" , "ما هي أحرف التقدير ؟" , "الدرجات" , "المعدل التراكمي"],
+       "responses": ["الدرجات: الدرجة هي نظام الحروف الذي يتم من خلاله تقييم الطلاب من خلال الاختبارات القصيرة والامتحانات والأوراق والحضور والمشاركة في الفصل وما إلى ذلك. متوسط درجة الدرجات (GPA) هو رقم يتراوح من 0.00-4.00 ، وهو ملخص لـ الأداء الأكاديمي للطلاب على مدار السنوات. يشمل المعدل التراكمي المعدل الفصلي وهو المعدل التراكمي لفصل دراسي واحد فقط ، وهو المعدل التراكمي للدورات التي تم أخذها على مدار السنوات التي حضرها الطالب في MIU (يجب على الطلاب تحقيق الحد الأدنى التراكمي معدل تراكمي 2.00 ليكون قادرًا على التخرج) ، المعدل التراكمي الرئيسي وهو المعدل التراكمي للدورات المكتملة للتخصص (يجب على الطلاب تحقيق معدل تراكمي لا يقل عن 2.00 ليكونوا قادرين على التخرج) .متوسط الدرجات (GPA) هو يتم حسابها بضرب قيمة الدرجة في عدد الساعات المعتمدة التي تمثلها الدورة التدريبية ؛ والنتيجة هي العمود المدرج على أنه إجمالي نقاط الجودة. ثم يتم قسمة إجمالي نقطة الجودة على إجمالي الساعات المعتمدة ، باستثناء الساعات المعتمدة لـ WS / WU. "],
+       "context": [""]
+       },
+       {"tag": "schola",
+       "patterns": ["هل تقدم جامعة مصر منحة دراسية ؟" , "منحة" , "منح"],
+       "responses": ["تقدم الجامعة نوعين من المنح الدراسية: منح الجدارة (يمنح الطلاب المصريون الحاصلون على درجات عالية في الثانوية العامة أو ما يعادلها منحًا دراسية. تُمنح المنح في وقت القبول لمدة عام واحد ، وبعد ذلك يتم تعديلها وفقًا لـ الأداء الأكاديمي للطالب (المعدل التراكمي)) وجوائز الإنجاز الرياضي (سيتم منح الطلاب الحاصلين على مرتبة عالية في الرياضة منحًا دراسية من أجل: 1) المشاركة في البطولات الدولية أو الإقليمية. البطولة. 3) الأهلية لهذه المنح مدتها عام دراسي واحد وللاستفادة من هذه الجائزة في العام التالي يجب على الطالب المشاركة باسم الجامعة في بطولة الجامعات الوطنية "],
+       "context": [""]
+       },
+       {"tag": "alsfees",
+       "patterns": ["ما هي الرسوم الدراسية لكلية الألسن ؟" , "ما هي رسوم كلية الألسن ؟", "ما هي المصروفات الدراسية لكلية الألسن ؟" , "ما هي مصروفات كلية الألسن ؟", "ما هي المصاريف الدراسية لكلية الألسن ؟" , "ما هي مصاريف كلية الألسن ؟"],
+       "responses": ["الرسوم لكل فصل دراسي: 33.250 جنيه مصري. الرسوم الإدارية: 11.000 جنيه مصري"],
+       "context": [""]
+       },
+       {"tag": "busifees",
+       "patterns": ["ما هي الرسوم الدراسية لكلية الأعمال ؟" , "ما هي رسوم كلية إدارة الأعمال ؟","ما هي المصروفات الدراسية لكلية إدارة الأعمال ؟" , "ما هي مصروفات كلية إدارة الأعمال  ؟", "ما هي المصاريف الدراسية لكلية إدارة الأعمال  ؟" , "ما هي مصاريف كلية إدارة الأعمال  ؟"],
+       "responses": ["الرسوم لكل فصل دراسي: 46.000 جنيه مصري. الرسوم الإدارية: 15.000 جنيه مصري"],
+       "context": [""]
+       },
+       {"tag": "csfees",
+       "patterns": ["ما هي الرسوم الدراسية لكلية حاسبات ومعلومات ؟" , "ما هي رسوم كلية حاسبات ومعلومات ؟","ما هي المصروفات الدراسية لكلية حاسبات ومعلومات ؟" , "ما هي مصروفات كلية حاسبات ومعلومات  ؟","ما هي المصاريف الدراسية لكلية حاسبات ومعلومات  ؟" , "ما هي مصاريف كلية حاسبات ومعلومات  ؟"],
+       "responses": ["الرسوم لكل فصل دراسي: 36100 جنيه مصري. الرسوم الإدارية: 11 ألف جنيه مصري."],
+       "context": [""]
+       },
+       {"tag": "denfees",
+       "patterns": ["ما هي الرسوم الدراسية لكلية طب الفم والأسنان ؟" ,"ما هي رسوم كلية طب الفم والأسنان ؟" , "ما هي الرسوم الدراسية لكلية طب الأسنان ؟" , "ما هي رسوم كلية طب الأسنان ؟", "ما هي المصاريف الدراسية لكلية طب الفم والأسنان ؟" ,"ما هي مصاريف كلية طب الفم والأسنان ؟" , "ما هي المصاريف الدراسية لكلية طب الأسنان ؟" , "ما هي مصاريف كلية طب الأسنان ؟","ما هي المصروفات الدراسية لكلية طب الفم والأسنان ؟" ,"ما هي مصروفات كلية طب الفم والأسنان ؟" , "ما هي المصروفات الدراسية لكلية طب الأسنان ؟" , "ما هي مصروفات كلية طب الأسنان ؟"],
+       "responses": ["الرسوم لكل فصل دراسي: 76 ألف جنيه مصري. الرسوم الإدارية: 18 ألف جنيه ."],
+       "context": [""]
+       },
+       {"tag": "engfes",
+       "patterns": ["ما هي الرسوم الدراسية لكلية العلوم الهندسية والآداب ؟" , "ما هي رسوم كلية الهندسة والعلوم والآداب ؟" , "ما هي الرسوم الدراسية لكلية الهندسة المعمارية ؟" , "ما هي رسوم كلية العمارة ؟", "ما هي المصروفات الدراسية لكلية العلوم الهندسية والآداب ؟" , "ما هي مصروفات كلية الهندسة والعلوم والآداب ؟" , "ما هي المصروفات الدراسية لكلية الهندسة المعمارية ؟" , "ما هي مصروفات كلية العمارة ؟", "ما هي المصاريف الدراسية لكلية العلوم الهندسية والآداب ؟" , "ما هي مصاريف كلية الهندسة والعلوم والآداب ؟" , "ما هي المصاريف الدراسية لكلية الهندسة المعمارية ؟" , "ما هي مصاريف كلية العمارة ؟"],
+       "responses": ["الرسوم لكل فصل دراسي: 42250 جنيه مصري. الرسوم الإدارية: 12 ألف جنيه مصري."],
+       "context": [""]
+       },
+       {"tag": "mascomfes",
+       "patterns": ["ما هي الرسوم الدراسية لكلية الإعلام ؟" , "ما هي رسوم كلية الإعلام ؟" , "ما هي الرسوم الدراسية لأعضاء هيئة التدريس ؟" , "ما هي رسوم كلية الإعلام ؟", "ما هي المصروفات الدراسية لكلية الإعلام ؟" , "ما هي مصروفات كلية الإعلام ؟" , "ما هي المصروفات الدراسية لأعضاء هيئة التدريس ؟" , "ما هي مصروفات كلية الإعلام ؟", "ما هي المصاريف الدراسية لكلية الإعلام ؟" , "ما هي مصاريف كلية الإعلام ؟" , "ما هي المصاريف الدراسية لأعضاء هيئة التدريس ؟" , "ما هي مصاريف كلية الإعلام ؟"],
+       "responses": ["الرسوم لكل فصل دراسي: 46.000 جنيه مصري. الرسوم الإدارية: 15.000 جنيه مصري"],
+       "context": [""]
+       },
+       {"tag": "pharmafes",
+       "patterns": ["ما هي الرسوم الدراسية لكلية الصيدلة ؟" , "ما هي رسوم كلية الصيدلة ؟", "ما هي المصروفات الدراسية لكلية الصيدلة ؟" , "ما هي مصروفات كلية الصيدلة ؟", "ما هي المصاريف الدراسية لكلية الصيدلة ؟" , "ما هي مصاريف كلية الصيدلة ؟"],
+       "responses": ["الرسوم لكل فصل دراسي: 51.500 جنيه مصري. الرسوم الإدارية: 12.000 جنيه مصري"],
+       "context": [""]
+       },
+       {"tag": "facofals",
+       "patterns": ["أين يمكنني أن أجد معلومات عن كلية الألسن ؟" , "كلية الألسن" , "معلومات عن كلية الألسن ؟"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-alsun/"],
+       "context": [""]
+       },
+       {"tag": "sunAd",
+       "patterns": ["كيف يمكنني الالتحاق بكلية الألسن ؟" ,"كيف يمكنني الدخول إلى كلية الألسن ؟" , "كيف يمكنني التقديم بكلية الألسن ؟" ,"كيف يمكنني التقديم إلى كلية الألسن ؟" , "الالتحاق بكلية الألسن"],
+       "responses": [ "تقبل الجامعة المتقدمين ، الذين يسعون للتقدم لفصلي الخريف والربيع ، لمدة تصل إلى عام واحد قبل تاريخ التسجيل الأول المتوقع. يتم تحديد كل طالب ، ومع ذلك ، فإن اجتياز هذا الاختبار لا يعد مؤشراً على القبول. يجب على الطلاب إكمال جميع إجراءات القبول التي تشمل الفحص الطبي الذي تجريه الجامعة. ويمكن للطلاب التقدم بنسخ من شهاداتهم ولكن لن يتم اعتبارهم مسجلين بالكامل بدون تقديم المستندات الأصلية للطلاب المحولين يجب أن يقدموا كشف درجات رسمي من جامعتهم السابقة مع باقي المستندات المطلوبة تقبل الجامعة أنواعًا مختلفة من شهادات الثانوية العامة والتي يتم احتسابها جميعًا وفقًا للوائح التي يضعها المجلس الأعلى للجامعات المصرية. لن تحدد الجامعة القبول النهائي للمرشحين الذين لم يقدموا كاملة التطبيقات أو المستندات "],
+       "context": [""]
+       },
+       {"tag": "Alacapro",
+       "patterns": ["ما هي الدورات في كلية الألسن ؟" , "دورات كليةالألسن"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-alsun/ ، يمكنك التحقق من المنهج الجديد في علامة تبويب البرنامج الأكاديمي على اليسار من خلال هذا الرابط. \n تقدم كلية الألسن برنامج مدته أربع سنوات (8 فصول دراسية) يؤدي إلى درجة البكالوريوس في اللغة الإنجليزية. "," https://www.miuegypt.edu.eg/academics/faculty-of-alsun/ "],
+       "context": [""]
+       },
+       {"tag": "FacofBusi",
+       "patterns": ["أين يمكنني أن أجد معلومات عن كلية إدارة الأعمال ؟" , "كلية إدارة الأعمال", "معلومات عن كلية إدارة الأعمال"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-business-2/"],
+       "context": [""]
+       },
+       {"tag": "BusiADD",
+       "patterns": ["كيف يمكنني الالتحاق بكلية إدارة الأعمال ؟" , "كيف يمكنني الالتحاق بكلية إدارة الأعمال ؟" , "كيف يمكنني التقديم بكلية إدارة الأعمال ؟" , "كيف يمكنني التقديم بكلية إدارة الأعمال ؟"],
+       "responses": ["تقبل الجامعة المتقدمين ، الذين يسعون للتقدم لفصلي الخريف والربيع ، لمدة تصل إلى عام واحد قبل تاريخ التسجيل الأول المتوقع. يتم تحديد كل طالب ، ومع ذلك ، فإن اجتياز هذا الاختبار لا يعد مؤشراً على القبول. يجب على الطلاب إكمال جميع إجراءات القبول التي تشمل الفحص الطبي الذي تجريه الجامعة. ويمكن للطلاب التقدم بنسخ من شهاداتهم ولكن لن يتم اعتبارهم مسجلين بالكامل بدون تقديم المستندات الأصلية للطلاب المحولين يجب أن يقدموا كشف درجات رسمي من جامعتهم السابقة مع باقي المستندات المطلوبة تقبل الجامعة أنواعًا مختلفة من شهادات الثانوية العامة والتي يتم احتسابها جميعًا وفقًا للوائح التي يضعها المجلس الأعلى للجامعات المصرية. لن تحدد الجامعة القبول النهائي للمرشحين الذين لم يقدموا كاملة التطبيقات أو المستندات "],
+       "context": [""]
+       },
+       {"tag": "BusAcaPro",
+       "patterns": ["ما هي الدورات في كلية الأعمال ؟" , "دورات كليةالأعمال"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-business-2/ ، يمكنك التحقق من المنهج الجديد في علامة تبويب البرنامج الأكاديمي على اليسار من خلال هذا الرابط. \n كلية إدارة الأعمال و تقدم التجارة الدولية برنامجًا مدته أربع سنوات (8 فصول دراسية) يؤدي إلى درجة بكالوريوس العلوم في إدارة الأعمال "],
+       "context": [""]
+       },
+       {"tag": "facofCS",
+       "patterns": ["أين يمكنني أن أجد معلومات عن كلية حاسبات ومعلومات ؟" , "كلية حاسبات ومعلومات"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-computer-science-2/"],
+       "context": [""]
+       },
+       {"tag": "CSadd",
+       "patterns": ["كيف يمكنني الالتحاق بكلية علوم الحاسب ؟" , "كيف يمكنني التقديم بكلية علوم الحاسب ؟" , "تقديم كلية حاسبات ومعلومات" , "تقديم كلية حاسبات ومعلومات" , "كيف يمكنني الالتحاق بكلية حاسبات ومعلومات ؟" , "كيف يمكنني التقديم بكلية حاسبات ومعلومات ؟"],
+       "responses": ["تقبل الجامعة المتقدمين ، الذين يسعون للتقدم لفصلي الخريف والربيع ، لمدة تصل إلى عام واحد قبل تاريخ التسجيل الأول المتوقع. يتم تحديد كل طالب ، ومع ذلك ، فإن اجتياز هذا الاختبار لا يعد مؤشراً على القبول. يجب على الطلاب إكمال جميع إجراءات القبول التي تشمل الفحص الطبي الذي تجريه الجامعة. ويمكن للطلاب التقدم بنسخ من شهاداتهم ولكن لن يتم اعتبارهم مسجلين بالكامل بدون تقديم المستندات الأصلية للطلاب المحولين يجب أن يقدموا كشف درجات رسمي من جامعتهم السابقة مع باقي المستندات المطلوبة تقبل الجامعة أنواعًا مختلفة من شهادات الثانوية العامة والتي يتم احتسابها جميعًا وفقًا للوائح التي يضعها المجلس الأعلى للجامعات المصرية. لن تحدد الجامعة القبول النهائي للمرشحين الذين لم يقدموا كاملة التطبيقات أو المستندات "],
+       "context": [""]
+       },
+       {"tag": "CSacaPro",
+       "patterns": ["ما هي الدورات في كلية حاسبات ومعلومات ؟" , "دورات كلية حاسبات ومعلومات"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-computer-science-2/ ، يمكنك التحقق من المنهج الجديد في علامة تبويب البرنامج الأكاديمي على اليسار من خلال هذا الارتباط. \n كلية الحاسبات تقدم العلوم برنامجًا مدته أربع سنوات (8 فصول دراسية) يؤدي إلى درجة بكالوريوس العلوم في حاسبات ومعلومات "],
+       "context": [""]
+       },
+       {"tag": "facOfden",
+       "patterns": ["أين يمكنني العثور على معلومات حول كلية طب الفم والأسنان ؟" , "أين يمكنني العثور على معلومات حول كلية طب الأسنان", "كلية طب الفم والأسنان" , "كلية طب الأسنان" , "معلومات عن كلية طب الأسنان", "معلومات عن كلية طب الفم والأسنان"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-oral/"],
+       "context": [""]
+       },
+       {"tag": "DentAd",
+       "patterns": ["كيف يمكنني الالتحاق بكلية طب الفم والأسنان ؟ كيف يمكنني الالتحاق بكلية طب الأسنان ؟" , "كيف يمكنني التقديم بكلية طب الفم والأسنان ؟ كيف يمكنني التقديم بكلية طب الأسنان ؟", "التقديم بكلية طب الأسنان" , "التقديم بكلية طب الفم والأسنان"],
+       "responses": ["تقبل الجامعة المتقدمين ، الذين يسعون للتقدم لفصلي الخريف والربيع ، لمدة تصل إلى عام واحد قبل تاريخ التسجيل الأول المتوقع. يتم تحديد كل طالب ، ومع ذلك ، فإن اجتياز هذا الاختبار لا يعد مؤشراً على القبول. يجب على الطلاب إكمال جميع إجراءات القبول التي تشمل الفحص الطبي الذي تجريه الجامعة. ويمكن للطلاب التقدم بنسخ من شهاداتهم ولكن لن يتم اعتبارهم مسجلين بالكامل بدون تقديم المستندات الأصلية للطلاب المحولين يجب أن يقدموا كشف درجات رسمي من جامعتهم السابقة مع باقي المستندات المطلوبة. تقبل الجامعة أنواعًا مختلفة من شهادات الثانوية العامة والتي يتم احتسابها جميعًا وفقًا للوائح التي يضعها المجلس الأعلى للجامعات المصرية. لن تحدد الجامعة القبول النهائي للمرشحين الذين لم يقدموا كاملة التطبيقات أو المستندات "],
+       "context": [""]
+       },
+       {"tag": "DenAcaPro",
+       "patterns": ["ما هي الدورات في كلية طب الأسنان ؟" , "ما هي الدورات في كلية طب الفم والأسنان ؟" , "دورات كلية طب الفم والأسنان" , "دورات كلية طب الأسنان"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-oral/ ، يمكنك التحقق من المنهج الجديد في علامة تبويب البرنامج الأكاديمي على اليسار من خلال هذا الرابط. \n تقدم كلية طب الأسنان خمسة برنامج العام (10 فصول دراسية) المؤدية إلى درجة البكالوريوس في طب وجراحة الأسنان "],
+       "context": [""]
+       },
+       {"tag": "facOfPhar",
+       "patterns": ["أين أجد معلومات عن كلية الصيدلة ؟" , "كلية الصيدلة" , "معلومات عن كلية الصيدلة"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-pharmacy-2/"],
+       "context": [""]
+       },
+       {"tag": "pharAd",
+       "patterns": ["كيف يمكنني الالتحاق بكلية الصيدلة ؟" , "كيف يمكنني التقديم بكلية الصيدلة ؟"],
+       "responses": ["تقبل MIU المتقدمين ، الذين يسعون للتقدم لفصلي الخريف والربيع ، لمدة تصل إلى عام واحد قبل تاريخ التسجيل الأول المتوقع. يتم تحديد كل طالب ، ومع ذلك ، فإن اجتياز هذا الاختبار لا يعد مؤشراً على القبول. يجب على الطلاب إكمال جميع إجراءات القبول التي تشمل الفحص الطبي الذي تجريه الجامعة. ويمكن للطلاب التقدم بنسخ من شهاداتهم ولكن لن يتم اعتبارهم مسجلين بالكامل بدون تقديم المستندات الأصلية للطلاب المحولين يجب أن يقدموا كشف درجات رسمي من جامعتهم السابقة مع باقي المستندات المطلوبة تقبل الجامعة أنواعًا مختلفة من شهادات الثانوية العامة والتي يتم احتسابها جميعًا وفقًا للوائح التي يضعها المجلس الأعلى للجامعات المصرية. لن تحدد الجامعة القبول النهائي للمرشحين الذين لم يقدموا كاملة التطبيقات أو المستندات "],
+       "context": [""]
+       },
+       {"tag": "pharPro",
+       "patterns": ["ما هي الدورات في كلية الصيدلة ؟" , "دورات كلية الصيدلة"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-pharmacy-2/ ، يمكنك التحقق من المنهج الجديد في علامة تبويب البرنامج الأكاديمي على اليسار من خلال هذا الرابط."],
+       "context": [""]
+       },
+       {"tag": "mcomu",
+       "patterns": ["أين يمكنني أن أجد معلومات عن كلية الإعلام ؟" , "أين يمكنني أن أجد معلومات عن كلية ماس كوم ؟" , "كلية الإعلام" , "معلومات عن كلية الإعلام"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-mass-communication/"],
+       "context": [""]
+       },
+       {"tag": "ta2demmascom",
+       "patterns": ["كيف يمكنني الالتحاق بكلية الاتصال الجماهيري ؟ كيف يمكنني الالتحاق بكلية الأتصال الجماعي ؟" , "كيف يمكنني الالتحاق بكلية الاعلام ؟ كيف يمكنني الالتحاق بكلية الاعلام ؟"],
+       "responses": ["تقبل الجامعة المتقدمين ، الذين يسعون للتقدم لفصلي الخريف والربيع ، لمدة تصل إلى عام واحد قبل تاريخ التسجيل الأول المتوقع. يتم تحديد كل طالب ، ومع ذلك ، فإن اجتياز هذا الاختبار لا يعد مؤشراً على القبول. يجب على الطلاب إكمال جميع إجراءات القبول التي تشمل الفحص الطبي الذي تجريه الجامعة. ويمكن للطلاب التقدم بنسخ من شهاداتهم ولكن لن يتم اعتبارهم مسجلين بالكامل بدون تقديم المستندات الأصلية للطلاب المحولين يجب أن يقدموا كشف درجات رسمي من جامعتهم السابقة مع باقي المستندات المطلوبة. تقبل الجامعة أنواعًا مختلفة من شهادات الثانوية العامة والتي يتم احتسابها جميعًا وفقًا للوائح التي يضعها المجلس الأعلى للجامعات المصرية. لن تحدد الجامعة القبول النهائي للمرشحين الذين لم يقدموا كاملة التطبيقات أو المستندات "],
+       "context": [""]
+       },
+       {"tag": "dawarate3lam",
+       "patterns": ["ما هي دورات كلية الإعلام ؟ ما هي الدورات في كلية الإعلام ؟" , "دورات كلية الإعلام"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-mass-communic/ ، يمكنك التحقق من المنهج الجديد في علامة تبويب البرنامج الأكاديمي على اليسار من خلال هذا الرابط. \n تقدم كلية الإعلام برنامج مدته أربع سنوات (8 فصول دراسية) يؤدي إلى درجة بكالوريوس العلوم في الاتصال الجماهيري "],
+       "context": [""]
+       },
+       {"tag": "معلوماتالعمارة",
+       "patterns": ["أين يمكنني أن أجد معلومات عن كلية العمارة ؟" , "معلومات عن كلية العمارة" ,"كلية العمارة"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-architecture/"],
+       "context": [""]
+       },
+       {"tag": "كليةالعمارة",
+       "patterns": ["كيف يمكنني الالتحاق بكلية العمارة ؟" , "كيف يمكنني التقديم بكلية العمارة ؟" , "التقديم بكلية العمارة"],
+       "responses": ["تقبل الجامعة المتقدمين ، الذين يسعون للتقدم لفصلي الخريف والربيع ، لمدة تصل إلى عام واحد قبل تاريخ التسجيل الأول المتوقع. يتم تحديد كل طالب ، ومع ذلك ، فإن اجتياز هذا الاختبار لا يعد مؤشراً على القبول. يجب على الطلاب إكمال جميع إجراءات القبول التي تشمل الفحص الطبي الذي تجريه الجامعة. ويمكن للطلاب التقدم بنسخ من شهاداتهم ولكن لن يتم اعتبارهم مسجلين بالكامل بدون تقديم المستندات الأصلية للطلاب المحولين يجب أن يقدموا كشف درجات رسمي من جامعتهم السابقة مع باقي المستندات. المطلوبة تقبل الجامعة أنواعًا مختلفة من شهادات الثانوية العامة والتي يتم احتسابها جميعًا وفقًا للوائح التي يضعها المجلس الأعلى للجامعات المصرية. لن تحدد MIU القبول النهائي للمرشحين الذين لم يقدموا كاملة التطبيقات أو المستندات "],
+       "context": [""]
+       },
+       {"tag": "العمارة",
+       "patterns": ["ما هي الدورات في كلية العمارة ؟" , "دورات كلية العمارة"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-architecture/ ، يمكنك التحقق من المنهج الجديد في علامة تبويب البرنامج الأكاديمي على اليسار من خلال هذا الارتباط. \n يقدم قسم الهندسة المعمارية خمسة برنامج العام (10 فصول دراسية) المؤدية إلى درجة بكالوريوس العلوم في الهندسة "],
+       "context": [""]
+       },
+       {"tag": "ECE",
+       "patterns": ["أين يمكنني العثور على معلومات حول كلية الإلكترونيات والاتصالات ؟" , "أين يمكنني العثور على معلومات حول كلية ECE ؟" , "كلية الإلكترونيات والاتصالات" , "معلومات عن كلية الإلكترونيات والاتصالات"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-electronics/"],
+       "context": [""]
+       },
+       {"tag": "الإلكترونيات",
+       "patterns": ["كيف يمكنني الالتحاق بكلية الإلكترونيات والاتصالات ؟" , "كيف يمكنني التقديم بكليةالإلكترونيات والاتصالات" , "التقديم بكليةالإلكترونيات والاتصالات"],
+       "responses": ["تقبل الجامعة المتقدمين ، الذين يسعون للتقدم لفصلي الخريف والربيع ، لمدة تصل إلى عام واحد قبل تاريخ التسجيل الأول المتوقع. يتم تحديد كل طالب ، ومع ذلك ، فإن اجتياز هذا الاختبار لا يعد مؤشراً على القبول. يجب على الطلاب إكمال جميع إجراءات القبول التي تشمل الفحص الطبي الذي تجريه الجامعة. ويمكن للطلاب التقدم بنسخ من شهاداتهم ولكن لن يتم اعتبارهم مسجلين بالكامل بدون تقديم المستندات الأصلية للطلاب المحولين يجب أن يقدموا كشف درجات رسمي من جامعتهم السابقة مع باقي المستندات المطلوبة. تقبل الجامعة أنواعًا مختلفة من شهادات الثانوية العامة والتي يتم احتسابها جميعًا وفقًا للوائح التي يضعها المجلس الأعلى للجامعات المصرية. لن تحدد الجامعة القبول النهائي للمرشحين الذين لم يقدموا كاملة التطبيقات أو المستندات "],
+       "context": [""]
+       },
+       {"tag": "الدورات",
+       "patterns": ["ما هي الدورات في كلية الالكترونيات والاتصالات ؟" , "دورات كلية الالكترونيات والاتصالات"],
+       "responses": ["https://www.miuegypt.edu.eg/academics/faculty-of-electronics/ ، يمكنك التحقق من المنهج الجديد في علامة تبويب البرنامج الأكاديمي على اليسار من خلال هذا الارتباط. \n يقدم قسم هندسة الإلكترونيات والاتصالات برنامج مدته خمس سنوات (10 فصول دراسية) يؤدي إلى درجة بكالوريوس العلوم في الهندسة "],
+       "context": [""]
+       },
+
+       {"tag": "الدرجات",
+        "patterns": ["ما هو توزيع الدرجات في الدورات ؟" , "توزيع الدرجات"],
+        "responses": ["10٪ حضور ومشاركة. 40٪ تقييم منتصف الفصل الدراسي. 50٪ تقييم نهائي."],
+        "context": [""]
+       },
+       {"tag": "الخدمات",
+        "patterns": ["ما هي الخدمات التي تقدمها الجامعة ؟" , "ما هي مرافق الجامعة ؟" , "الخدمات"],
+        "responses": ["قسم تكنولوجيا المعلومات (ITD) ، برنامج اللغة الإنجليزية (ELP) ، مكتب دعم الطلاب (SSO) ، مركز الإرشاد البحثي ، مكتب ضمان الجودة ، الدورات عبر الإنترنت ، بريد الطلاب ، المكتبة ، عيادة الأسنان ، مختبرات الوصول المفتوح ، مختبرات الإنترنت ، الدراسة الغرفة ، غرفة الفيديو ، استوديوهات الوسائط الجماهيرية ، أماكن الطعام ، ملعب كرة القدم ، غرفة الموسيقى ، غرفة الفن ، مركز الجامعة للياقة البدنية ، خدمة الحافلات "],
+        "context": [""]
+       },
+       {"tag": "خارج القاهرة",
+       "patterns": ["هل توفر الجامعة أي مرافق إقامة بالحرم الجامعي للطلاب المسجلين من خارج القاهرة ؟" , "هل توفر الجامعة مرافق إقامة بالحرم الجامعي للطلاب المسجلين من خارج القاهرة ؟" , "مرافق"],
+       "responses": ["لسوء الحظ ، لا تمتلك الجامعة مساكن داخل الحرم الجامعي ولا يمكنها تقديم مساعدة في السكن خارج الجامعة للمرشحين. يجب على المرشحين توفير أماكن الإقامة الخاصة بهم. تبعد الجامعة 25 دقيقة عن مصر الجديدة."],
+       "context": [""]
+       },
+       {"tag": "الاشتراك في مواصلات",
+       "patterns": ["هل تقدم الجامعةالنقل وكم يكلف سنويًا" , "مواصلات" , "وسائل النقل"],
+       "responses": ["تقدم الجامعة شبكة مواصلات من الدرجة الأولى. الاشتراك في مواصلات الجامعة اختياري بناءً على ما يفضله الطالب. يتم الإعلان عن رسوم الحافلة سنويًا على موقع الجامعة وليست جزءًا من الرسوم الدراسية."],
+       "context": [""]
+       },
+       {"tag": "النقل",
+       "patterns": ["هل خطوط المواصلات تغطي جميع أحياء القاهرة ومدن أخرى ؟" , "خطوط" , "خطوط المواصلات" , "خط سير"],
+       "responses": ["شبكة مواصلات الجامعة تغطي القاهرة والجيزة والزقازيق بينما مدينة السادس من أكتوبر والإسماعيلية لا تغطيها خطوط حافلات الجامعة"],
+       "context": [""]
+       },
+       {"tag": "1DetailedBusRoutes",
+       "patterns": ["هل يمكن للمتقدمين معرفة خطوط الحافلات المفصلة قبل القبول ؟" , "هل يمكن للمتقدم معرفة خطوط الحافلات المفصلة قبل القبول ؟" , "هل يمكنني معرفة خطوط الحافلات المفصلة قبل القبول ؟"],
+       "responses": ["عندما يتم قبول مقدم الطلب أخيرًا في الجامعة ، فإنه / يمكنه الاتصال بمكتب النقل الخاص بنا عبر الهاتف للحصول على التفاصيل. تقدم الجامعة 3 أوقات استلام و 4 أوقات إنزال لتناسب الجداول الأكاديمية لطلابنا."],
+       "context": [""]
+       },
+       {"tag": "ترتيب",
+       "patterns": ["ما هو ترتيب الجامعة ؟" , "رتبة الجامعة ؟" , "تصنيف جامعة مصر الدولية" , "تصنيف جامعة مصر" , "تصنيف" , "ترتيب" , "رتبة" , "مرتبة"],
+       "responses": ["تصنيف جامعة مصر الدولية في مصر 17 والمرتبة العالمية 5363"],
+       "context": [""]
+       }]
+}
